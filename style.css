@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 section{
     position: relative;
@@ -69,6 +70,7 @@ header ul li a{
 .content .textBox a {
     display: inline-block;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 8px 20px;
     background: #fff;
     color: #111;
@@ -86,7 +88,7 @@ header ul li a{
     justify-content: flex-end;
 }
 .content .imgBox img{
-    max-width: 260px;
+    max-width: 220px;
 }
 .thumb{
     position: absolute;
@@ -94,6 +96,7 @@ header ul li a{
     bottom: 20px;
     transform: translateX(-50%);
     display: flex;
+    margin-bottom: 45px;
 }
 .thumb li{
     list-style: none;
