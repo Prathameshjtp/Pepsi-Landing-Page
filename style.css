@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 section{
     position: relative;
@@ -58,7 +57,7 @@ header ul li a{
     color: #fff;
     font-size: 4em;
     line-height: 1.5em;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .content .textBox h2 span{
@@ -70,7 +69,6 @@ header ul li a{
 .content .textBox a {
     display: inline-block;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 8px 20px;
     background: #fff;
     color: #111;
@@ -93,10 +91,9 @@ header ul li a{
 .thumb{
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: 30px;
     transform: translateX(-50%);
     display: flex;
-    margin-bottom: 25px;
 }
 .thumb li{
     list-style: none;
@@ -108,7 +105,7 @@ header ul li a{
     transform: translateY(-15px);
 }
 .thumb li img{
-    max-width: 60px;
+    max-width: 50px;
 }
 .sci{
     position: absolute;
